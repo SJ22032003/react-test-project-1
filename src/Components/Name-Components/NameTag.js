@@ -9,7 +9,7 @@ import "./NameTag-comp.css";
     }
   return (
     <div>
-      <h1 className="people" >{props.firstName} {props.lastName} <sub className="tag" >slave {props.slaveNo +1}</sub></h1>
+      <h1 className="people" >{props.firstName} {props.lastName} <sub className="tag" >Friend {props.slaveNo +1}</sub></h1>
     </div>
   );
 }
